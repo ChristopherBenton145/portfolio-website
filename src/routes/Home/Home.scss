@@ -1,0 +1,46 @@
+.home {
+  .container {
+    width: 350px;
+    margin: auto;
+    margin-top: 75px;
+
+    h1 {
+      font-size: 50px;
+
+      span {
+        font-size: 55px;
+        display: inline-block;
+        font-style: italic;
+        transform: rotate(-5deg);
+      }
+    }
+
+    p {
+      font-size: 21px;
+      color: #999;
+
+      span {
+        color: black;
+        font-style: italic;
+      }
+    }
+  }
+}
+
+@media (min-width: 800px) {
+  .home .container {
+    width: 600px;
+
+    h1 {
+      font-size: 70px;
+
+      span {
+        font-size: 80px;
+      }
+    }
+
+    p {
+      font-size: 25px;
+    }
+  }
+}
