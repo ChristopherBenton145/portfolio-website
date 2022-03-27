@@ -12,6 +12,7 @@ function App() {
     <BrowserRouter>
       <Nav />
       <Routes>
+        <Route path='*' component={<Route404 />} />
         <Route path="/" element={<Home />} />
         <Route path="/skills" element={<Skills />} />
         <Route path="/projects" element={<Projects />} />
