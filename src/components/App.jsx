@@ -4,6 +4,7 @@ import "./Backgrounds/InfiniteBackground/InfiniteBackground.scss";
 import Nav from  "./Nav/Nav";
 import Home from  "../routes/Home/Home";
 import Skills from  "../routes/Skills/Skills";
+import Projects from  "../routes/Projects/Projects";
 import Contact from  "../routes/Contact/Contact";
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/skills" element={<Skills />} />
+        <Route path="/projects" element={<Projects />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
     </BrowserRouter>
