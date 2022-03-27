@@ -1,24 +1,24 @@
 .home {
   .container {
-    width: 350px;
-    margin: auto;
     margin-top: 75px;
+    margin: auto;
+    width: 350px;
 
     h1 {
       font-size: 50px;
       margin: 0;
 
       span {
-        font-size: 55px;
         display: inline-block;
+        font-size: 55px;
         font-style: italic;
         transform: rotate(-5deg);
       }
     }
 
     p {
-      font-size: 21px;
       color: #999;
+      font-size: 21px;
 
       span {
         color: black;

@@ -1,9 +1,9 @@
 nav {
   svg {
-    position: fixed;
-    top: 0px;
-    right: 0px;
     margin: 15px;
+    position: fixed;
+    right: 0px;
+    top: 0px;
     z-index: 2;
 
     &.hidden {
@@ -12,21 +12,21 @@ nav {
   }
 
   ul {
-    z-index: 1;
+    align-items: center;
+    background-color: black;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    height: 100%;
     justify-content: space-evenly;
-    position: fixed;
-    top: 0;
     left: 0;
     margin: 0;
     padding: 0;
-    background-color: black;
-    width: 100%;
-    height: 100%;
+    position: fixed;
+    top: 0;
     transform: translateX(100%);
     transition: transform 0.8s;
+    width: 100%;
+    z-index: 1;
 
     &.active {
       transform: translateX(0);
@@ -38,23 +38,23 @@ nav {
     }
 
     li {
+      font-size: 60px;
+      letter-spacing: 5px;
+      margin: 0;
       opacity: 0;
       transform: translateX(100px);
       transition: all 0.6s cubic-bezier(0.215, 0.61, 0.355, 1) 0.7s;
-      font-size: 60px;
-      margin: 0;
-      letter-spacing: 5px;
 
       &:before,
       &:after {
-        display: block;
         content: attr(data-glitch);
+        display: block;
+        height: 100%;
+        left: 0;
+        opacity: 0.8;
         position: absolute;
         top: 0;
-        left: 0;
-        height: 100%;
         width: 100%;
-        opacity: 0.8;
       }
       &:before {
         color: #0ff;
@@ -80,30 +80,30 @@ nav {
 
 @media (min-width: 800px) {
   svg {
-    width: 60px;
     height: 60px;
+    width: 60px;
   }
 }
 
 .glitch {
+  color: #fff;
+  left: 50%;
+  letter-spacing: 5px;
+  margin: 0;
   position: absolute;
   top: 50%;
-  left: 50%;
   transform: translate(-50%, -50%);
-  margin: 0;
-  color: #fff;
-  letter-spacing: 5px;
 
   &:before,
   &:after {
-    display: block;
     content: attr(data-glitch);
+    display: block;
+    height: 100%;
+    left: 0;
+    opacity: 0.8;
     position: absolute;
     top: 0;
-    left: 0;
-    height: 100%;
     width: 100%;
-    opacity: 0.8;
   }
   &:after {
     color: #f0f;
