@@ -63,4 +63,10 @@ $red: rgb(196, 45, 45);
       no-repeat;
     background-size: cover;
   }
+
+  &:nth-child(4) .image {
+    background: url("../../../assets/images/snake-game.jpg") center center
+      no-repeat;
+    background-size: cover;
+  }
 }
