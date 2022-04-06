@@ -3,8 +3,8 @@ import "../Skill.scss";
 function TechnicalSkills() {
   return (
     <div className="skill">
-      <h2>Technical Skills</h2>
-      <p>HTML, CSS, Sass, JavaScript, React.js, Node.js, JSON</p>
+      <h2>Skills</h2>
+      <p>HTML, CSS, Sass, JavaScript, TypeScript, React.js, Node.js, JSON, MongoDB, Firebase, Git</p>
     </div>
   )
 }

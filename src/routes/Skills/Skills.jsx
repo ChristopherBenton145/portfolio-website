@@ -6,7 +6,7 @@ function Skills() {
   return (
     <section className="skills">
       <TechnicalSkills />
-      <Tools />
+      {/* <Tools /> */}
     </section>
   )
 }
