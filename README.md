@@ -2,6 +2,7 @@
 <div align="center">
   <img src="/public/favicon.ico" alt="Logo" width="80" height="80">
   <h3 align="center">Portfolio Website</h3>
+  I hope to remake this soon.
   <p align="center">
     <br />
     <a href="https://christophers-portfolio42.netlify.app">https://christophers-portfolio42.netlify.app</a>
