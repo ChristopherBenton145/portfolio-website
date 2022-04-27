@@ -47,30 +47,36 @@ $red: rgb(196, 45, 45);
   }
 
   &:nth-child(1) .image {
-    background: url("../../../assets/images/restaurant-page.png") center
+    background: url("../../../assets/images/xupe.png") center
       center no-repeat;
     background-size: cover;
   }
 
   &:nth-child(2) .image {
+    background: url("../../../assets/images/restaurant-page.png") center
+      center no-repeat;
+    background-size: cover;
+  }
+
+  &:nth-child(3) .image {
     background: url("../../../assets/images/premium-landing-page.png") center center
       no-repeat;
     background-size: cover;
   }
 
-  &:nth-child(3) .image {
+  &:nth-child(4) .image {
     background: url("../../../assets/images/space-landing-page.png") center center
       no-repeat;
     background-size: cover;
   }
 
-  &:nth-child(4) .image {
+  &:nth-child(5) .image {
     background: url("../../../assets/images/multistep-form.jpeg") center center
       no-repeat;
     background-size: cover;
   }
 
-  &:nth-child(5) .image {
+  &:nth-child(6) .image {
     background: url("../../../assets/images/snake-game.jpg") center center
       no-repeat;
     background-size: cover;
